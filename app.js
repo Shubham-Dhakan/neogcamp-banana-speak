@@ -2,7 +2,9 @@ var btnTranslate = document.querySelector("#btn-translate");
 var inputDiv = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
 
-var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+//var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+
+var url = "https://api.funtranslations.com/translate/australian.json"
 
 function getTranslationURL(Text) {
     return url + "?" + "text=" + Text
